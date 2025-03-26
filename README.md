@@ -91,6 +91,10 @@ o	Click on Ec2->Per Instances Metrics-> Check the CPUUtilization-> Click Create 
 
 ![Image](https://github.com/user-attachments/assets/51c55d31-e2bb-4d52-8c42-af02f668332b)
 
+![Image](https://github.com/user-attachments/assets/4e2d7897-2b43-453d-bd7f-1820a55f9d78)
+
+![Image](https://github.com/user-attachments/assets/9cbaa3d1-33c6-470e-80e1-cd1b79268957)
+
 ![Image](https://github.com/user-attachments/assets/880cbe31-d015-4deb-9cc5-cfd21974aa77)
 
 ![Image](https://github.com/user-attachments/assets/c03d8907-5bd7-4922-bc98-b7198f0517ce)
