@@ -22,6 +22,8 @@ Step 1: Launch an EC2 Instance
 o	Allow SSH (Port 22) from your IP.
 o	Allow HTTP (Port 80) if using a web server.
 •	Launch the instance.
+
+
 Step 2: Create Amazon SNS Topic & Subscription
 •	Go to AWS SNS Console.
 •	Click Create Topic → Choose Standard.
@@ -29,6 +31,7 @@ Step 2: Create Amazon SNS Topic & Subscription
 •	Click Create Subscription:
 o	Choose Email.
 o	Enter your email and confirm the subscription from your inbox.
+
 
 Step 3: Configure CloudWatch Metrics & Alarms
 1.	Go to AWS CloudWatch Console.
@@ -50,10 +53,15 @@ o	Evaluation Periods: 1
 13.	Click on Create alarm
 14.	Go to your gmail
 15.	You will see the aws notification mail open it & Click on confirm subscription
+
+    
 Step 5: Perform Stress Testing (To Trigger Alarm)
 •	Click on the Cloud Shell
+
 •	Upload the Key Pem File
+
 •	Enter this command chmod 0400 keyfile.pem
+
 •	Connect to the EC2 instance via SSH:
 ssh -i your-key.pem ec2-user@your-ec2-public-ip
 
