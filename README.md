@@ -15,21 +15,33 @@
 #DESCRIPTION
 
 Step 1: Launch an EC2 Instance
+
 •	Go to the AWS EC2 Console → Click on Launch Instance.
+
 •	Choose Amazon Linux 2023 or Ubuntu as the OS.
+
 •	Choose an instance type (e.g., t2.micro for free-tier or t2.medium for better testing).
+
 •	Configure security group:
 o	Allow SSH (Port 22) from your IP.
+
 o	Allow HTTP (Port 80) if using a web server.
+
 •	Launch the instance.
 
 
 Step 2: Create Amazon SNS Topic & Subscription
+
 •	Go to AWS SNS Console.
+
 •	Click Create Topic → Choose Standard.
+
 •	Enter a name (e.g., HighCPUAlert).
+
 •	Click Create Subscription:
+
 o	Choose Email.
+
 o	Enter your email and confirm the subscription from your inbox.
 
 
