@@ -85,15 +85,23 @@ stress --cpu 4 --timeout 600
 This will increase CPU usage and trigger the CloudWatch alarm.
 
 Step 7: Verify Monitoring & Alerts
+
 •	Go to CloudWatch Console → Metrics → All Metrics->Click on Graphed metrics ->Check if CPUUtilization is high.
+
 •	Check CloudWatch Alarms → It should show In Alarm.
+
 •	Check your email inbox for the SNS notification.
 
 Step 8: (Optional) Create a CloudWatch Dashboard
+
 •	In CloudWatch, go to Dashboards → Create Dashboard -> Give a name -> Click Create.
+
 •	Add Widgets for:
+
 o	Select the Graph like Line, Bar, Number, Pie, etc
+
 o	Click on Ec2->Per Instances Metrics-> Check the CPUUtilization-> Click Create widget
+
 •	Save the dashboard.
 
 
